@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home Pagina</title>
+    <meta name="description" content="eindopdracht internetstandaarden">
+    <meta name="keywords" content="eindopdracht HVA HogeSchool van Amsterdam">
+    <meta name="Levi Titarsole" content="Levi Titatsole">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- Deze website is gemaakt door Levi Titarsole -->
+
+<body>
+    <header class="hoofd">
+        <nav>
+            <section id="myNav" class="overlay">
+                <a class="position closebtn" onclick="closeNav()">&times;</a>
+                <ol class="overlay-content main-font">
+                  
+                    <li> 
+                    <a href="index.html">
+                     <span>Home</span>
+                     <span class="small-number">01</span>
+                    </a>
+                  </li>
+        
+                    <li> 
+                      <a href="vangogh.html">
+                        <span>Van gogh</span>
+                        <span class="small-number number-left">02</span>
+                       </a>
+                    </li>
+        
+                    <li> 
+                      <a href="museum.html">
+                        <span>Museum</span>
+                        <span class="small-number">03</span>
+                      </a>  
+                    </li>
+        
+                    <li> 
+                      <a href="contact.html">
+                        <span>Contact</span>
+                        <span class="small-number number-left">04</span>
+                      </a>
+                    </li>
+                </ol>
+              </section>
+              <span class="position openbtn" style="cursor:pointer" onclick="openNav()">&#9776;</span>
+            </nav>
+
+        <div class="container">
+            <div class="header-center-holder main-font">
+                <h1> Dutch Masters </h1>
+                <img src="./img/header-img.jpg" alt="Schilderij van Gogh, gele bloemen op een gele achtergrond">
+                <p> Explore the most famous Dutch master painters.</p>
+                <a href="#1"> <svg xmlns="http://www.w3.org/2000/svg" width="91" height="35" viewBox="0 0 91 35">
+                    <path id="Subtraction_1" data-name="Subtraction 1" d="M45.5,79h0L0,44H6.232L45.5,74.207,84.768,44H91L45.5,79Z" transform="translate(0 -44)"/>
+                  </svg> </a>
+            </div>
+        </div>
+    </header>
+
+    <main> 
+        <section id="1" class="headlinerscontainer">
+            <h4 class="headliners main-font">
+                <span>Take the Journey through the</span>
+                <span>world of Dutch masters</span>
+                <span>and their artistic paintings</span>
+            </h4>
+        </section>
+
+        <section class="alineablock">
+            <div class="alineablockholder">
+                <p class="alinea1"> Welcome to our virtual gallery, a digital oasis where Dutch art comes to life. Our website is your passport to explore the captivating world of Dutch painters. Immerse yourself in the beauty of their creations, from the serene landscapes of Vermeer to the vibrant scenes of Van Gogh. Whether you’re an art enthusiast or just curious, our collection offers something for everyone. Take a leisurely stroll through our online exhibitions, learn about the artists who shaped Dutch art history, and even bring a piece of it into your own life by browsing our available artworks for sale. We invite you to embark on this artistic journey with us and discover the essence of Dutch culture through the strokes of a brush. </p>
+                <p class="alinea2"> As you explore our gallery, you’ll also encounter genre scenes that provide glimpses into the daily lives of the Dutch people. These paintings offer a window into the customs, traditions, and interactions of bygone eras, making history come alive on canvas. </p>
+                <p class="alinea3"> Step into our virtual gallery, where we’ve meticulously curated a wide array of Dutch artworks that span different eras, styles, and themes. Our diverse collection is a testament to the rich tapestry of Dutch artistry that has evolved over the centuries. </p>
+                <p class="alinea4"> Experience the enchantment of the Golden Age through our selection of meticulously detailed still lifes, capturing the intricate beauty of everyday objects. Let the tranquil landscapes transport you to serene Dutch countryside scenes, where the interplay of light and shadow is masterfully portrayed. </p>
+                <p class="alinea5"> Our collection also celebrates the human spirit with portraits that breathe life into the individuals they depict. Whether it’s the solemn gaze of a merchant, the candid smile of a child, or the regal posture of a nobleman, these portraits tell compelling stories of Dutch society through the ages. </p>
+            </div>
+        </section>
+
+        <div class="paddingtopper"> </div>
+            <h4 class="headliners main-font"> 
+                <span>Explore the Genius of</span>
+                <span>The Dutch Masters</span>
+            </h4>         
+
+        <section class="painterholder paddingtopper main-font">
+            <section>
+                <img src="./img/Vincent-van-Gogh.jpg" alt="zelfportret schilderij van Vincent van Gogh">
+               <a href="./vangogh.html"><h2>Vincent van Gogh</h2></a>
+            </section>
+            <section class="extra"> 
+                <img src="./img/Rembrandt.jpeg" alt="zelfportret schilderij van Rembrandt van Rhijn">
+                <a href="#"><h2><span>Rembrandt van Rhijn</span></h2></a>
+            </section>
+            <section class="extra"> 
+                <img src="./img/Vermeer.jpeg" alt="zelfportret schilderij van Johannes Vermeer">
+                <a href="#"><h2><span>Johannes Vermeer</span></h2></a>
+            </section>
+        </section>
+    </main>
+    
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
+</body>
+
+</html>

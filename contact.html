@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Pagina</title>
+    <meta name="description" content="eindopdracht internetstandaarden">
+    <meta name="keywords" content="eindopdracht HVA HogeSchool van Amsterdam">
+    <meta name="Levi Titarsole" content="Levi Titatsole">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- Deze website is gemaakt door Levi Titarsole -->
+
+<body>
+    <nav>
+      <section id="myNav" class="overlay">
+        <a class="position closebtn" onclick="closeNav()">&times;</a>
+        <ol class="overlay-content main-font">
+          <li> 
+            <a href="index.html">
+             <span>Home</span>
+             <span class="small-number">01</span>
+            </a>
+          </li>
+
+            <li> 
+              <a href="vangogh.html">
+                <span>Van gogh</span>
+                <span class="small-number number-left">02</span>
+               </a>
+            </li>
+
+            <li> 
+              <a href="museum.html">
+                <span>Museum</span>
+                <span class="small-number">03</span>
+              </a>  
+            </li>
+
+            <li> 
+              <a href="contact.html">
+                <span>Contact</span>
+                <span class="small-number number-left">04</span>
+              </a>
+            </li>
+        </ol>
+      </section>
+
+      <span class="position openbtn" style="cursor:pointer" onclick="openNav()">&#9776;</span>
+    </nav>
+
+    <main class="contact-main">
+      <section class="card-holder"> 
+        <h5 class="p-font"> Contact </h5>
+        <section class="contact-holder"> 
+          <ol>
+            <li class="first">Personal</li>
+            <li class="second">Levi Titarsole</li>
+            <li class="third"><a href="tel:+31617308124">+31 6 17308124</a></li>
+            <li class="third"><a href="mailto:levi.titarsole@icloud.com">Levi.titarsole@icloud.com</a></li>
+          </ol>
+
+          <ol>
+            <li class="first">School</li>
+            <li class="second">Levi Titarsole</li>
+            <li class="third"><a href="tel:+31617308124">+31 6 17308124</a></li>
+            <li class="third"><a href="mailto:levi.titarsole@hva.nl">levi.titarsole@hva.nl</a></li>
+          </ol>
+        </section>
+      </section>
+    </main>
+
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+      
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+      </script>
+
+</body>
+</html>
